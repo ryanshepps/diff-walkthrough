@@ -2,6 +2,10 @@
 
 Walk through a code diff one checkpoint at a time in Herdr. The agent shows the implementation and related tests in one review pane, explains them, and waits for your questions or a request to continue.
 
+## See it in action
+
+![Typing continue opens the next diff, then questions reveal the relevant code](assets/diff-walkthrough-demo.gif)
+
 ## Install
 
 Install [Herdr](https://herdr.dev/docs/install/) and make sure `git`, `jq`, `less`, and either `bat` or `batcat` are on your `PATH`. Ubuntu and Debian package `bat` as `batcat`.
